@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
+  <test name="Default test(failed)">
+    <classes>
+      <class name="com.mailchimp.automation.testcases.SignUpPageTest">
+        <methods>
+          <include name="setUp"/>
+          <include name="cleanUp"/>
+          <include name="signUp_With_Valid_Email_And_UserName_Test"/>
+          <include name="signUp_With_Invalid_Email_Test"/>
+          <include name="logInLinkTest"/>
+          <include name="GoToHome"/>
+          <include name="signUpPageTitleTest"/>
+          <include name="signUp_With_Invalid_Email_And_Existing_UserName_Test"/>
+        </methods>
+      </class> <!-- com.mailchimp.automation.testcases.SignUpPageTest -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->
